@@ -1,0 +1,25 @@
+{
+  "name": "shopnest-full-stack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "install-all": "npm install && cd Backend && npm install && cd ../frontend && npm install",
+    "build": "cd frontend && npm install && npm run build",
+    "start": "cd Backend && npm start",
+    "dev": "concurrently \"npm run start:backend\" \"npm run start:frontend\"",
+    "start:backend": "npm --prefix Backend run dev",
+    "start:frontend": "npm --prefix frontend run start",
+    "seed": "npm --prefix Backend run seed"
+  },
+  "keywords": [
+    "e-commerce",
+    "microservices"
+  ],
+  "author": "Rudra",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "concurrently": "^10.0.3",
+    "react-redux": "^9.3.0"
+  }
+}
