@@ -5,7 +5,7 @@
   <p>A professionally engineered, full-stack E-commerce platform built strictly using modern standard React (CRA) on the frontend and Express/MongoDB on the backend.</p>
 </div>
 Live URL: https://ecom-shopnest-1.onrender.com
----
+  
 
 ## 🛠 Tech Stack Details
 
